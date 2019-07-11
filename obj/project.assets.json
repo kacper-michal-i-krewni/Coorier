@@ -12081,9 +12081,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lenovo\\source\\repos\\TestProject\\TestProject.csproj",
-      "projectName": "TestProject",
-      "projectPath": "C:\\Users\\Lenovo\\source\\repos\\TestProject\\TestProject.csproj",
+      "projectUniqueName": "C:\\Users\\Lenovo\\source\\repos\\TestProject\\Coorier.csproj",
+      "projectName": "Coorier",
+      "projectPath": "C:\\Users\\Lenovo\\source\\repos\\TestProject\\Coorier.csproj",
       "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Lenovo\\source\\repos\\TestProject\\obj\\",
       "projectStyle": "PackageReference",
