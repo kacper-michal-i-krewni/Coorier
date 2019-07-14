@@ -11,9 +11,13 @@ namespace Coorier.Models
     {
         public string getResponse()
         {
-            string url = String.Format("https://api.spotify.com/v1/albums/1/tracks");
+            string url = String.Format("https://community-open-weather-map.p.rapidapi.com/weather?callback=test&id=2172797&units=%22metric%22+or+%22imperial%22&mode=xml%2C+html&q=London%2Cuk");
             WebRequest webRequest = WebRequest.Create(url);
-           
+
+            //string authHeader = System.Convert.ToBase64String(System.Text.ASCIIEncoding.ASCII.GetBytes("5037d509" + ":" + "4dc1aebaa63721f0f8e79a55e2514bc7"));
+            webRequest.Headers.Add("X-RapidAPI-Host", "community-open-weather-map.p.rapidapi.com");
+            webRequest.Headers.Add("X-RapidAPI-Key", "c10a554e76msh302d6c68a43eabcp19891bjsn49070d6fb2b9");
+
             webRequest.Method = "GET";
             HttpWebResponse httpResponse = null;
             httpResponse = (HttpWebResponse)webRequest.GetResponse();
