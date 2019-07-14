@@ -5,7 +5,7 @@ using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
 
-namespace Coorier.Models
+namespace Coorier.REST
 {
     public class Response
     {
