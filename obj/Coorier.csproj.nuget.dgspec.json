@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lenovo\\source\\repos\\TestProject\\Coorier.csproj": {}
+    "C:\\Users\\Lenovo\\source\\repos\\Coorier\\Coorier.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lenovo\\source\\repos\\TestProject\\Coorier.csproj": {
+    "C:\\Users\\Lenovo\\source\\repos\\Coorier\\Coorier.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\source\\repos\\TestProject\\Coorier.csproj",
+        "projectUniqueName": "C:\\Users\\Lenovo\\source\\repos\\Coorier\\Coorier.csproj",
         "projectName": "Coorier",
-        "projectPath": "C:\\Users\\Lenovo\\source\\repos\\TestProject\\Coorier.csproj",
+        "projectPath": "C:\\Users\\Lenovo\\source\\repos\\Coorier\\Coorier.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\source\\repos\\TestProject\\obj\\",
+        "outputPath": "C:\\Users\\Lenovo\\source\\repos\\Coorier\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -41,22 +41,6 @@
       "frameworks": {
         "netcoreapp2.2": {
           "dependencies": {
-            "BuildBundlerMinifier": {
-              "target": "Package",
-              "version": "[2.9.406, )"
-            },
-            "BundlerMinifier.Core": {
-              "target": "Package",
-              "version": "[2.9.406, )"
-            },
-            "Microsoft.AspNet.Mvc": {
-              "target": "Package",
-              "version": "[5.2.7, )"
-            },
-            "Microsoft.AspNet.WebApi.Core": {
-              "target": "Package",
-              "version": "[5.2.7, )"
-            },
             "Microsoft.AspNetCore.App": {
               "suppressParent": "All",
               "target": "Package",
